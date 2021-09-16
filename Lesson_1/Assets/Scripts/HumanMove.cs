@@ -5,49 +5,53 @@ using UnityEngine;
 public class HumanMove : MonoBehaviour
 {
     [SerializeField]
-     private float _speed;
-     public GameObject door;
-     public bool isGround ;
+    private float _speed;
+    [SerializeField]
+    private GameObject door;
+    private bool isGround ;
      
     
     
 
-    
 
-   void OnCollisionEnter(Collision other)
-    {
-       if(other.gameObject.layer == 8)
-       
-       isGround = true;
-    }
+            
+    
+    	
     void  FixedUpdate()
     {
         if(isGround)
         {
-          door.transform.position = new Vector3(16, 5, -49);
+        	door.transform.position = new Vector3(16, 5, -49);
         }
         
-      if(Input.GetKey(KeyCode.W))
-    {
-        transform.position += Vector3.forward*_speed*Time.deltaTime;
-        transform.rotation = Quaternion.Euler(0,0,0);
+    	if(Input.GetKey(KeyCode.W))
+    	{
+        	transform.position += Vector3.forward*_speed*Time.deltaTime;
+        	transform.rotation = Quaternion.Euler(0,0,0);
+    	}
+    	else if(Input.GetKey(KeyCode.S))
+    		 {
+        		transform.position -= Vector3.forward*_speed*Time.deltaTime;
+        		transform.rotation = Quaternion.Euler(0,180,0);
+    		 }   
+     	else if(Input.GetKey(KeyCode.A))
+    		 {
+        		transform.position += Vector3.left*_speed*Time.deltaTime;
+        		transform.rotation = Quaternion.Euler(0,-90,0);
+    		 }
+    	else if(Input.GetKey(KeyCode.D))
+    		 {
+        		transform.position -= Vector3.left*_speed*Time.deltaTime;
+        		transform.rotation = Quaternion.Euler(0,90,0);
+    		 }   
     }
-    else if(Input.GetKey(KeyCode.S))
+
+    private void OnCollisionEnter(Collision other)
     {
-        transform.position -= Vector3.forward*_speed*Time.deltaTime;
-        transform.rotation = Quaternion.Euler(0,180,0);
-    }   
-     else if(Input.GetKey(KeyCode.A))
-    {
-        transform.position += Vector3.left*_speed*Time.deltaTime;
-        transform.rotation = Quaternion.Euler(0,-90,0);
+    	if(other.gameObject.layer == 8)
+        isGround = true;
     }
-    else if(Input.GetKey(KeyCode.D))
-    {
-        transform.position -= Vector3.left*_speed*Time.deltaTime;
-        transform.rotation = Quaternion.Euler(0,90,0);
-    }   
-    }
+   
     
   
    
