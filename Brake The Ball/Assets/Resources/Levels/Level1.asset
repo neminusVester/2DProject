@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3940f15757a30364786a04bb7e45038a, type: 3}
+  m_Name: Level1
+  m_EditorClassIdentifier: 
+  Blocks:
+  - Position: {x: 5.5, y: 0.75}
+    Block: {fileID: 11400000, guid: 0c6443995fbb04b4abb5e17e01d3416e, type: 2}
+  - Position: {x: 0.5, y: 0.25}
+    Block: {fileID: 11400000, guid: 0c6443995fbb04b4abb5e17e01d3416e, type: 2}
+  - Position: {x: -6.5, y: 1.75}
+    Block: {fileID: 11400000, guid: 9616450a23f2305418119276745dd8f5, type: 2}
+  - Position: {x: 4.5, y: 2.25}
+    Block: {fileID: 11400000, guid: 9616450a23f2305418119276745dd8f5, type: 2}
+  - Position: {x: 6.5, y: 2.75}
+    Block: {fileID: 11400000, guid: 9616450a23f2305418119276745dd8f5, type: 2}
+  - Position: {x: -1.5, y: 1.75}
+    Block: {fileID: 11400000, guid: 0c6443995fbb04b4abb5e17e01d3416e, type: 2}
+  - Position: {x: -3.5, y: 2.25}
+    Block: {fileID: 11400000, guid: 9616450a23f2305418119276745dd8f5, type: 2}
+  - Position: {x: -2.5, y: -0.25}
+    Block: {fileID: 11400000, guid: 9616450a23f2305418119276745dd8f5, type: 2}
+  - Position: {x: 0.5, y: 2.75}
+    Block: {fileID: 11400000, guid: 9616450a23f2305418119276745dd8f5, type: 2}
+  - Position: {x: -2.5, y: 1.25}
+    Block: {fileID: 11400000, guid: 0c6443995fbb04b4abb5e17e01d3416e, type: 2}
+  - Position: {x: 3.5, y: 1.75}
+    Block: {fileID: 11400000, guid: 419bdd2aead844446840ed81ba4672ab, type: 2}
+  - Position: {x: -1.5, y: 0.75}
+    Block: {fileID: 11400000, guid: 0c6443995fbb04b4abb5e17e01d3416e, type: 2}
+  - Position: {x: -1.5, y: -0.25}
+    Block: {fileID: 11400000, guid: 419bdd2aead844446840ed81ba4672ab, type: 2}
+  - Position: {x: 4.5, y: 0.25}
+    Block: {fileID: 11400000, guid: 9616450a23f2305418119276745dd8f5, type: 2}
+  - Position: {x: 7.5, y: 1.75}
+    Block: {fileID: 11400000, guid: 419bdd2aead844446840ed81ba4672ab, type: 2}
+  - Position: {x: -3.5, y: 1.25}
+    Block: {fileID: 11400000, guid: 9616450a23f2305418119276745dd8f5, type: 2}
+  - Position: {x: 1.5, y: 0.75}
+    Block: {fileID: 11400000, guid: 0c6443995fbb04b4abb5e17e01d3416e, type: 2}
+  - Position: {x: 1.5, y: 1.25}
+    Block: {fileID: 11400000, guid: 9616450a23f2305418119276745dd8f5, type: 2}
+  - Position: {x: 5.5, y: 0.25}
+    Block: {fileID: 11400000, guid: 419bdd2aead844446840ed81ba4672ab, type: 2}
+  - Position: {x: -0.5, y: 2.25}
+    Block: {fileID: 11400000, guid: 9616450a23f2305418119276745dd8f5, type: 2}
+  - Position: {x: 3.5, y: 1.25}
+    Block: {fileID: 11400000, guid: 9616450a23f2305418119276745dd8f5, type: 2}
+  - Position: {x: -3.5, y: -0.25}
+    Block: {fileID: 11400000, guid: 9616450a23f2305418119276745dd8f5, type: 2}
+  - Position: {x: -1.5, y: 1.25}
+    Block: {fileID: 11400000, guid: 419bdd2aead844446840ed81ba4672ab, type: 2}
+  - Position: {x: -7.5, y: 2.25}
+    Block: {fileID: 11400000, guid: 9616450a23f2305418119276745dd8f5, type: 2}
+  - Position: {x: -6.5, y: 1.25}
+    Block: {fileID: 11400000, guid: 0c6443995fbb04b4abb5e17e01d3416e, type: 2}
+  - Position: {x: 1.5, y: 0.25}
+    Block: {fileID: 11400000, guid: 9616450a23f2305418119276745dd8f5, type: 2}
+  - Position: {x: -5.5, y: 1.25}
+    Block: {fileID: 11400000, guid: 419bdd2aead844446840ed81ba4672ab, type: 2}
+  - Position: {x: -7.5, y: 1.75}
+    Block: {fileID: 11400000, guid: 0c6443995fbb04b4abb5e17e01d3416e, type: 2}
+  - Position: {x: 2.5, y: 1.25}
+    Block: {fileID: 11400000, guid: 0c6443995fbb04b4abb5e17e01d3416e, type: 2}
+  - Position: {x: -4.5, y: -0.25}
+    Block: {fileID: 11400000, guid: 9616450a23f2305418119276745dd8f5, type: 2}
+  Bonuses:
+  - {fileID: 1249650914745843081, guid: 760505b80abbbe046a0580e8c81a8079, type: 3}
+  - {fileID: 1249650914745843081, guid: 760505b80abbbe046a0580e8c81a8079, type: 3}
+  - {fileID: 8549107294785395073, guid: 0da315d3b772b9d4abdd3306c3090d44, type: 3}
+  - {fileID: 8549107294785395073, guid: 0da315d3b772b9d4abdd3306c3090d44, type: 3}
+  - {fileID: 1910097086846623857, guid: 5563655991f10ca48aa868bca48af12e, type: 3}
+  - {fileID: 1910097086846623857, guid: 5563655991f10ca48aa868bca48af12e, type: 3}
+  - {fileID: 6258252602030862796, guid: 3867f92fcacbd11449597b9b53e73a61, type: 3}
+  - {fileID: 6258252602030862796, guid: 3867f92fcacbd11449597b9b53e73a61, type: 3}
